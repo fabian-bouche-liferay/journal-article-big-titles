@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.liferay.samples.fbo.big.titles.model.BigTitle">
+		<field name="bigTitleId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="articlePK" type="long" />
+		<field name="title" type="String">
+			<hint name="max-length">4000</hint>
+		</field>
+		<field name="languageId" type="String" />
+	</model>
+</model-hints>

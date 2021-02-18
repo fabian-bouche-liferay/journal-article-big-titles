@@ -1,0 +1,10 @@
+Bundle-Name: big-titles-api
+Bundle-SymbolicName: com.liferay.samples.fbo.big.titles.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.samples.fbo.big.titles.exception,\
+	com.liferay.samples.fbo.big.titles.model,\
+	com.liferay.samples.fbo.big.titles.service,\
+	com.liferay.samples.fbo.big.titles.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../big-titles-service/service.xml
